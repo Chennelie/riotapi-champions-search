@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgb(24,13,19);
+    background: linear-gradient(39deg, rgba(24,13,19,1) 0%, rgba(167,55,79,1) 35%, rgba(253,75,70,1) 100%);
+}
+
+body, #container {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#container {
+    background-image: url('https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg');
+    background-size: cover;
+    width: 90vw;
+    height: 90vh;
+    box-shadow: #0000006a 10px 10px 10px;
+}
+
+header {
+    border-bottom: #000000 solid 1px;
+    padding: 0.5rem;
+    background-color: #ffffff2b;
+}
+
+#logo {
+    width: 10rem;
+    height: auto;
+}
+
+#form {
+    float: right;
+    padding-top: 0.5rem;
+}
+
+#search {
+    border-radius: 1rem 0 0 1rem;
+}
+
+#submit {
+    border-radius: 0 1rem 1rem 0;
+}
+
+#submit:hover {
+    background-color: #cacaca;
+    cursor: pointer;
+}
+
+#search, #submit {
+    padding: 0.5rem;
+    border: 1px solid #ffffff;
+    margin: 0;
+}
+
+section {
+    padding: 3rem;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+.tag {
+    background-color: #2f2f2f;
+    display: inline-block;
+    padding: 0.25rem;
+    border: #000000 solid 1px;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #a7a7a7;
+    margin-right: 0.5rem;
+}
+
+.more {
+    padding: 0.5rem;
+    border: #ffffff 1px solid;
+    color: #ffffff;
+    border-radius: 0.75rem;
+    text-decoration: none;
+}
+
+.more:hover {
+    border: #cacaca 1px solid;
+    color: #cacaca;
+}
